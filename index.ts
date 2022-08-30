@@ -1,5 +1,18 @@
-const world = 'world';
+import { v4 as uuidV4 } from "uuid"
 
-export function hello(who: string = world): string {
-  return `Hello ${who}! `;
-}
+const list = document.querySelector<HTMLUListElement>("#list")
+const form = document.querySelector<HTMLFormElement>("#new-task-form")
+const input = document.querySelector<HTMLInputElement>("#new-task-title")
+
+form?.addEventListener("submit", e => {
+    e.preventDefault()
+
+    if (input?.value == "" || input?.value == null) return
+
+    const task = {
+        id: uuidV4(),
+        title: input.value,
+        completed: false,
+        createdAt: new Date()
+    }
+})

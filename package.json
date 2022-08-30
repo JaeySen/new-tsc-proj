@@ -1,0 +1,26 @@
+{
+  "name": "new-tsc-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaeySen/new-tsc-proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaeySen/new-tsc-proj/issues"
+  },
+  "homepage": "https://github.com/JaeySen/new-tsc-proj#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4"
+  }
+}
