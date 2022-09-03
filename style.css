@@ -1,0 +1,20 @@
+ul {
+    list-style-type: none2
+
+}
+
+h1, h2{
+    /* color: white; */
+}
+
+.container-fluid.banner{
+    min-height: 35vh;
+    background-image: url(bg.jpg);
+    background-position: 30%;
+    background-attachment: local;
+    background-size: cover;
+}
+
+.container-sm{
+    z-index: 1;
+}
